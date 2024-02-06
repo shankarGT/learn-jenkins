@@ -17,10 +17,5 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        stage ('Re Deploy') {
-            steps {
-                echo 'Re Deploying....'
-            }
-        }
     }    
 }
